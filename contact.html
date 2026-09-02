@@ -1,0 +1,162 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact Us | Pascal Technologies</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header>
+      <div class="container nav-container">
+        <a href="index.html" class="logo">Pascal <span>Technologies</span></a>
+        <button class="nav-toggle" aria-label="Toggle Navigation">
+          &#9776;
+        </button>
+        <nav class="nav-links">
+          <a href="index.html">Home</a>
+          <a href="capabilities.html">Capabilities & Industries</a>
+          <a href="about.html">About Us</a>
+          <a href="contact.html" class="active">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Page Header -->
+    <div class="page-header">
+      <div class="container">
+        <h1>Contact Us</h1>
+        <p>
+          Submit your enquiry or tender requirement below. Our procurement and
+          technical teams will review and respond.
+        </p>
+      </div>
+    </div>
+
+    <!-- Contact Form Section -->
+    <section>
+      <div class="container">
+        <div class="contact-container">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="fullname">Full Name</label>
+              <input
+                type="text"
+                id="fullname"
+                required
+                placeholder="Full Name"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="company">Company / Organization</label>
+              <input
+                type="text"
+                id="company"
+                required
+                placeholder="Company or Agency Name"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input
+                type="email"
+                id="email"
+                required
+                placeholder="workemail@domain.com"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="phone">Phone</label>
+              <input
+                type="tel"
+                id="phone"
+                required
+                placeholder="+1 (555) 000-0000"
+              />
+            </div>
+
+            <div class="form-group">
+              <label for="enquiry">Nature of Enquiry</label>
+              <select id="enquiry" required>
+                <option value="" disabled selected>Select an option...</option>
+                <option value="Government / Defence Procurement">
+                  Government / Defence Procurement
+                </option>
+                <option value="Industrial Supply">Industrial Supply</option>
+                <option value="Engineering Materials">
+                  Engineering Materials
+                </option>
+                <option value="Logistics / Supply Chain">
+                  Logistics / Supply Chain
+                </option>
+                <option value="Tender Enquiry">Tender Enquiry</option>
+                <option value="Supplier / Partnership">
+                  Supplier / Partnership
+                </option>
+                <option value="Other">Other</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label for="message">Message</label>
+              <textarea
+                id="message"
+                rows="6"
+                required
+                placeholder="Provide details regarding your requirement or enquiry..."
+              ></textarea>
+            </div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%">
+              Submit Enquiry
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-about">
+            <div class="logo">Pascal <span>Technologies</span></div>
+            <p>
+              Specialized procurement, industrial sourcing, and supply-chain
+              management supporting government, defence, and institutional
+              clients globally.
+            </p>
+          </div>
+          <div class="footer-col">
+            <h4>Navigation</h4>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="capabilities.html">Capabilities & Industries</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="contact.html">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>Core Sectors</h4>
+            <ul>
+              <li><a href="capabilities.html">Government Contracting</a></li>
+              <li><a href="capabilities.html">Defence Sourcing</a></li>
+              <li><a href="capabilities.html">Industrial Materials</a></li>
+              <li><a href="capabilities.html">Supply Chain Execution</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2026 Pascal Technologies. All Rights Reserved.</p>
+          <p>Corporate Compliance & Procurement Services</p>
+        </div>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+  </body>
+</html>
